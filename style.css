@@ -1,0 +1,36 @@
+p {
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+  color: darkmagenta;
+}
+
+h2 {
+  text-align: center;
+  color: darkmagenta;
+}
+
+h3 {
+  text-align: center;
+  color: mediumslateblue;
+}
+
+.skill-header {
+  text-align: left;
+}
+
+.skill-container {
+  border: solid darkmagenta;
+  width: 500px;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 10px;
+}
+
+body {
+  text-align: center;
+  color: teal;
+  font-style: oblique;
+}
