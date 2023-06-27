@@ -3,41 +3,68 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"
+    ></script>
     <link rel="stylesheet" href="style.css" />
     <title>My Portfolio</title>
   </head>
   <body>
-    <h1>My Experiences</h1>
-    <img
-      src="img/IMG_1029.JPG"
-      width="300px"
-      style="margin-left: auto; margin-right: auto; display: block"
-    />
-    <h2>Peerawich Rattanahiran</h2>
-    <h2>_______________________________________________________________</h2>
-    <h2 style="text-decoration-line: underline">Experiences</h2>
-    <div class="skill-container">
-      <h2 class="skill-header">Staff</h2>
-      <h3>
-        <p>
-          In my year 1 semester 1, I have been a staff to help T.Roger teached
-          Scratch coding!
-        </p>
-      </h3>
+    <div
+      class="topnav d-flex gap-3 justify-content-center border-bottom gap-4 align-items=center px-4 primary"
+    >
+      <a href="index.html">Home</a>
+      <a class="active" href="experience.html">Experience</a>
+      <a href="gallery.html">Gallery</a>
+      <a href="contact.html">Contact</a>
     </div>
-    <br />
-    <div class="skill-container">
-      <h2 class="skill-header">Hobbies</h2>
-      <h3>
-        <p>
-          In my free time, I always play game such as FPS, open world and MMORPG
-          and I always reading some book!
-        </p>
-      </h3>
+    <p class="text-center fs-3 fw-bold">Experiences</p>
+    <div style="max-width: 700px" class="mx-auto px-3">
+      <div class="d-flex border rounded-5 mb-3 shadow-sm">
+        <div class="my-rounded-left">
+          <img
+            src="img/scratch.jpg"
+            width="200px"
+            height="200px"
+            style="object-fit: cover"
+            class="my-rounded-left d-none d-sm-block"
+          />
+        </div>
+        <div class="p-4">
+          <p class="fw-semibold fs-5">Staff</p>
+          <span class="text-muted"
+            >" In my year 1 semester 1, I have been a staff to help T.Roger
+            teached Scratch coding! "</span
+          >
+        </div>
+      </div>
+      <div class="d-flex border rounded-5 mb-3 shadow-sm">
+        <div class="p-4">
+          <p class="fw-semibold fs-5">Hobbies</p>
+          <span class="text-muted"
+            >" In my free time, I always play game such as FPS, open world and
+            MMORPG and I always reading some book! "</span
+          >
+        </div>
+        <div class="my-rounded-right">
+          <img
+            src="img/valorannt.jpg"
+            width="200px"
+            height="200px"
+            style="object-fit: cover"
+            class="my-rounded-left d-none d-sm-block"
+          />
+        </div>
+      </div>
     </div>
-    <h3>
-      <a href="index.html">Home</a> | <a href="experience.html">Experience</a> |
-      <a href="contact.html">Contanct Me</a>
-    </h3>
+    <p class="text-center text-muted m-3">© 2023 by Peerawich Rattanahiran</p>
   </body>
 </html>
